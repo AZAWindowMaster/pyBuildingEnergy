@@ -21,8 +21,7 @@ from my_building import BUI
 # data from PVGIS using the latitude/longitude in my_building.py.
 WEATHER_FILE = Path(__file__).resolve().parent / "2020_Milan.epw"
 
-OUTPUT_DIR = Path(r"C:\Users\aza.dk\Documents\pybuildingenergy_results")
-# ------------------------------------------------------------------
+OUTPUT_DIR = Path(r"C:\Users\aza.dk\OneDrive - WindowMaster\2_Projects\Python_Energy_Calculator\Test")
 
 
 def main():
