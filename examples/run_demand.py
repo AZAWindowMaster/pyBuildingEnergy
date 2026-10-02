@@ -19,7 +19,7 @@ from my_building import BUI
 # ------------------------------------------------------------------
 # Weather: use a local EPW file, or set WEATHER_FILE = None to download
 # data from PVGIS using the latitude/longitude in my_building.py.
-WEATHER_FILE = Path(__file__).resolve().parent / "2020_Milan.epw"
+WEATHER_FILE = Path(__file__).resolve().parent / "DRY_2001-2010_epw.epw"
 
 OUTPUT_DIR = Path(r"C:\Users\aza.dk\OneDrive - WindowMaster\2_Projects\Python_Energy_Calculator\Test")
 
